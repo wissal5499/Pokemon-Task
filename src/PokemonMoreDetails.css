@@ -1,0 +1,141 @@
+#AllPokemonsDetailsContainer{
+    position: fixed;
+    width: 844px;
+    height: 342px;
+    background: #F7F7F9;
+    border-radius: 9px;
+}
+#PokemonsDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#DescriptionAndStatsContainer{
+    margin-right: 90px;
+}
+#horizontalLine{
+    width: 246px;
+    height: 0px;
+    border: 1px solid #D7D7D7;
+    transform: rotate(-90deg);
+    margin-left: 20px;
+}
+
+#btn{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+    
+}
+#poisonBtn{
+    background-color: #A33EA1;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+    height: 30px;
+    margin-left: 5px;
+
+}
+#pokemonImg{
+    width: 120.02px;
+    height: 120px;
+    margin-left: 27%;
+  }
+#pokName{
+    width: 114.81px;
+    height: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #373299;
+    margin-left: 30%;
+  }
+
+  #btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+  }
+#desc{
+    width: 177px;
+height: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+color: #373299;
+}
+#descstat{
+    display: block;
+    width: 177px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #373299;
+}
+#desccontent{
+    position: absolute;
+    width: 349px;
+    height: 67px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #020166;
+}
+#close{
+    margin-left: 820px;
+    background-color: red;
+  }
+#close:hover{
+    background-color: grey;
+} 
+#Number{
+    width: 132.61px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 5px;
+    color: #373299;
+}
+#stats{
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-right: -50px;
+    justify-content: space-between;
+}
+.statsDiv{
+    width: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    color: #373299;
+}
+

@@ -1,0 +1,78 @@
+  #container{
+  width: 1283px;
+  height: 1307px;
+  background: #FCFCFC;
+  margin-left: 120px;
+  }
+  #containerDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+  }
+  #pokemonDiv{
+    width: 220.29px;
+    height: 240.29px;
+    background-color: #E5E5E5;  
+    border: 5px outset white;
+  }
+  #pokName{
+    width: 114.81px;
+    height: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #373299;
+    margin-left: 30%;
+  
+  }
+  #key{
+    width: 51px;
+    height: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #373299;
+  }
+  
+  #pokemonImg{
+    width: 120.02px;
+    height: 120px;
+    margin-left: 20%;
+  }
+  #morePokemon{
+  box-sizing: border-box;
+  position: absolute;
+  width: 210px;
+  height: 36px;
+  border: 1px solid #373299;
+  border-radius: 9px;
+  margin-left: 530px;
+  }
+  #searchbox{
+    box-sizing: border-box;
+    width: 341px;
+    height: 36px;
+    background: #F7F7F9;
+    border: 1px solid rgba(2, 1, 102, 0.5);
+    border-radius: 9px;
+    margin-left:430px ;
+  }
+  #searchBtn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7F7F9;
+    background-color:373299 ;
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    background: #373299;
+    border-radius: 9px;
+  }
+ 
